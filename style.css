@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    
+}
+
+main{
+    background-color: #FFBB8C;
+    min-height: 97vh
+  
+
+}
+
+.container{
+    background-color: white;
+    min-height: 97vh;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.title{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#input-box{
+    min-width: 60vw;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #FFBB8C;
+}
+#input-button{
+    height: 40px;
+    margin-left: 10px;
+    background-color: #FFBB8C;
+    border: none;
+}
+
+#under-bar{
+    background-color: #FFBB8C;
+    height: 4px;
+    position: absolute;
+    transition: 0.5s;
+
+
+}
+
+.select-line{
+    margin-top: 5vh;
+    display: flex;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.select-line div{
+    padding: 20px;
+    text-align: center;
+}
+
+#task-box{
+    border: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+}
+
+.task-line{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+.task-line div{
+    padding: 20px;
+}
+
+
+.task-text{
+    text-decoration: line-through;
+    background-color: gray;
+}
+
+.text-box{
+    width: 75%;
+}
+
+.button-zone{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-zone button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+footer{
+    height: 3vh;
+    
+    font-size: 10px;
+    background-color: black;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
